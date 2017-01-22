@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head>
+    <link rel="stylesheet" type="text/css" href="Shipping.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://da189i1jfloii.cloudfront.net/js/kinvey-html5-sdk-3.3.4.min.js"></script>
+    <script type="text/javascript" src="container_status.js"></script>
+<title> Shipping Status- Shipping Line</title>
+<meta charset= "UTF-8"> 
+</head>
+<body>
+    <table id="table"> 
+        <tr>
+            <th> ID </th>
+            <th> Contents </th>
+            <th> Quantity </th>
+            <th> Status </th> 
+        </tr>
+        <tr id="firstRow">
+            <td class="id"><span class="textContent"></span><span class="kid" style="display: none;"></td>
+            <td class="contents"><span class="textContent"></span></td>
+            <td class="quantity"><span class="textContent"></span></td>
+            <td class="status"><span class="textContent"></span></td>
+        </tr>
+    
+    </table>                
+        <div id="status" class="hide">
+            <div class="option1">
+            <button type=button class="arrived"> Arrived </button>
+            </div>
+            <!-- <p class="inline"> Customs: </p> -->
+            <div class="customs">
+                <select name="statusSelect" class= "verify">
+                        <option value="customs" id="customs" > Customs </option>
+                        <option value="ready" id="cleared"> Customs: Cleared </option>
+                        <option value="failed" id="failed"> Customs: Failed </option>
+                    </select>
+             </div>
+            <div class="option2">
+            <button type=button class="ready"> Ready </button>
+            </div>
+            <div class="option3">
+            <button type=button class="pickedUp"> PickedUp </button>
+            </div>
+        </div>
+
+    </body> 
+</html>

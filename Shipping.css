@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+#table{
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     word-spacing: 2px;
+     margin: 0 auto;
+}
+.hide{
+	display: none;
+}
+.currentStatus{
+	border: 3px solid black;
+}
+.done{
+	background-color: #70ff6d;
+}
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.status td{
+    border: 2px solid green;
+    padding: 3px;
+}
+button, form, p, td, th{
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     word-spacing: 2px;
+    }
+.drop{
+    display: inline;
+    position: relative;
+}
+.options1 {
+    display:inline-block;
+}
+.options2 {
+    display:inline-block;
+}
+.options3{
+    display:inline-block;
+}
+button{
+    border-radius: 5px;
+    border-color: #4286f4;
+}
+body{
+    text-align: center;
+}
+#verify{
+    border-radius: 5px;
+    border-color: #4286f4;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     word-spacing: 2px;
+}
+#verify{
+    display: inline-block;
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+button{
+    width:100px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+select{
+    width:125px;
+    height: 30px;
+    text-align: center;
+}
