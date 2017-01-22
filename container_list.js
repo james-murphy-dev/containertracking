@@ -19,6 +19,7 @@ $(document).ready(function(){
 			}, function onError(error){
 
 			});
+			window.location.reload();
 		}
 		function updateContainer(container, status){
 			var updateContainerStatus = dataStore.save({
@@ -33,6 +34,7 @@ $(document).ready(function(){
 			}, function onError(error){
 				console.log(error);
 			});
+			window.location.reload();
 		}
 		$(document).on('change', 'select', function(event){
 			var customs = $(this).val();

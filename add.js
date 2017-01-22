@@ -15,10 +15,11 @@ $(document).ready(function(){
 				"status": "arrived",
 				"quantity": $("#Quantity").val()
 			}).then(function onSuccess(entity){
-				window.location.reload();
 			}, function onError(error){
 
 			});
+			$("input").val("");
+
 		});
 	}).catch(function(error){
 
