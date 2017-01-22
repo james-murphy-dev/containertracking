@@ -8,10 +8,10 @@ function submit() {
 
         var userLogin = Kinvey.User.login(username, password);
         userLogin.then(function(user) {
-            if (user['type']=="shipper"){
+            if (user.data['type']=="shipper"){
                 window.open('manifest.html', '_self', false);
             }
-            else if (user['type']=="customer"){
+            else if (user.data['type']=="customer"){
                 window.open('status.html', '_self', false);
             }
         }, function(error) {
